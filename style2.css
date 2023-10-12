@@ -1,0 +1,43 @@
+h1 {
+    color:rgb(29, 29, 29);
+    font-size: 24pt;
+    font-family: 'Libre Baskerville', 'Times', serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+
+p {
+    color:rgb(0, 0, 0);
+    font-size: 12pt;
+    font-family: 'Kanit', 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input {
+    font-size: 12pt;
+    font-family: 'Kanit', 'Arial', sans-serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: 'Libre Baskerville', 'Times', serif;
+    font-style: italic;
+    /*font-size: 30px;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    background-color: #aefaff;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px dotted #001380;
+    margin: 20px;
+    border-radius: 7px;
+    color:#001380;
+}

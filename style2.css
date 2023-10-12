@@ -41,3 +41,46 @@ input {
     border-radius: 7px;
     color:#001380;
 }
+
+/*
+table[class="a"] {
+
+}
+*/
+
+.tabela {
+    background-color: rgb(73, 255, 82);
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela td, .tabela th {
+    border: 1px solid red;
+    padding: 5px;
+    font-style: normal;
+}
+
+.tabela tr:nth-child(even) > td {
+    background-color: rgb(3, 110, 8);
+}
+
+.tabela th {
+    color: white;
+    background-color: brown;
+    text-align: left;
+}
+
+.tabela tr:hover > td {
+    background-color: rgba(65, 42, 165, 0.385);
+    color: white;
+} 
+
+.mala {
+    background-color: rgb(231, 255, 73);
+    font-size: 6pt;
+}
+
+.mala tr:nth-child(even) > td {
+    background-color: rgb(70, 205, 238);
+}
